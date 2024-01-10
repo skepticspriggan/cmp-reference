@@ -5,7 +5,7 @@ A source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) that provides compl
 ## Features
 
 - _Global bibliography definition:_ set the bibliography source file only once for all files
-- _Format reference preview:_ define how the selected refernce is shown in the preview
+- _Format reference preview:_ define how the selected reference is shown in the preview
 
 ## Installation
 
@@ -75,11 +75,13 @@ Missing fields will be removed.
 
 _Default:_
 
+```
 [[
   **{{title}}**
   *{{year}}*
   {{author}}
 ]]
+```
 
 ## Todo
 
@@ -96,4 +98,4 @@ The package was inspired by:
 ## Similar Projects
 
 - [aspeddro/cmp-pandoc](https://github.com/aspeddro/cmp-pandoc.nvim)
-- [jc-doyle](https://github.com/jc-doyle/cmp-pandoc-references/)
+- [jc-doyle/cmp-pandoc-references](https://github.com/jc-doyle/cmp-pandoc-references/)
